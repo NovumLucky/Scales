@@ -22,15 +22,18 @@ void draw(){
   }
 }
 void drawScale(int x, int y){
+  stroke(0,0,0);
     strokeWeight(2);
   fill(255,(int)(Math.random()*100),20);
   arc(x,y,300,100,radians(-90),radians(90));
 
 }
 void counterScale(int w, int z){
+ stroke(0,0,0);
   strokeWeight(2);
   fill(255,(int)(Math.random()*100),20);
   arc(w,z,300,100,radians(-90),radians(90));
 
 }
+
 
