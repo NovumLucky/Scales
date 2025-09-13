@@ -5,7 +5,6 @@ void setup(){
 
 void draw(){
   //color
-      fill(255,(int)(Math.random()*100),20);
   //scales
    for (int y = 1400; y>=0;y-=100) {
     for (int x = 1200;x>=0; x-=200){
@@ -27,11 +26,13 @@ void draw(){
 }
 void scale(int x, int y){
     strokeWeight(2);
+  fill(255,(int)(Math.random()*100),20);
   arc(x,y,300,100,radians(-90),radians(90));
 
 }
 void counterscale(int w, int z){
   strokeWeight(2);
+  fill(255,(int)(Math.random()*100),20);
   arc(w,z,300,100,radians(-90),radians(90));
 
 }
@@ -60,3 +61,4 @@ void mouseClicked() {
     value = 0;
   }
 }
+
