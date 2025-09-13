@@ -1,6 +1,5 @@
 void setup(){
   size(1200,600);
-  background(220,220,200);
 }
 
 void draw(){
@@ -32,6 +31,7 @@ void counterScale(int w, int z){
   arc(w,z,300,100,radians(-90),radians(90));
 
 }
+
 
 
 
