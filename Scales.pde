@@ -9,9 +9,6 @@ void draw(){
    for (int y = 1400; y>=0;y-=100) {
     for (int x = 1200;x>=0; x-=200){
       drawScale(x,y-200);
-      //where exactly are my scales?
-        System.out.println(x);
-        System.out.println(y);
     }
   }
   //extra scales that fill the gaps in the canvas
@@ -35,5 +32,6 @@ void counterScale(int w, int z){
   arc(w,z,300,100,radians(-90),radians(90));
 
 }
+
 
 
