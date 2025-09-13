@@ -16,6 +16,7 @@ void draw(){
       counterScale(w,z);
     }
   }
+strokeWeight(4);
 drawFish();
 }
 void drawScale(int x, int y){
@@ -48,6 +49,7 @@ void drawFish() {
   fill(0,0,0);
   ellipse(420, 260, 20, 20);
 }
+
 
 
 
