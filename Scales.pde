@@ -16,8 +16,9 @@ void draw(){
       counterScale(w,z);
     }
   }
-strokeWeight(4);
-drawFish();
+ strokeWeight(4);
+  if (value == 0)
+   drawFish();
 }
 void drawScale(int x, int y){
   stroke(0,0,0);
@@ -49,6 +50,16 @@ void drawFish() {
   fill(0,0,0);
   ellipse(420, 260, 20, 20);
 }
+//mouse click function
+int value = 1;
+void mouseClicked() {
+  if (value == 0) {
+    value = 255;
+  } else {
+    value = 0;
+  }
+}
+
 
 
 
